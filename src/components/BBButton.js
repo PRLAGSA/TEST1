@@ -140,6 +140,24 @@ export default function FadeMenu() {
         >
           ΚΑΤΑΣΚΕΥΗ E-SHOP
         </MenuItem>
+        <MenuItem
+          onClick={handleClose}
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            justifyContent: "center",
+            color: "white",
+            fontSize: "20px",
+            border: "1px solid white",
+            margin: "7px",
+            padding: "3px 9px",
+            borderRadius: "4px",
+            backgroundColor: "rgb(14, 65, 12)",
+            marginBottom: "10px",
+          }}
+        >
+          κατασκευη e-shop
+        </MenuItem>
       </Menu>
     </div>
   );

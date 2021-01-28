@@ -114,18 +114,6 @@ function MainVideo() {
           >
             ΚΑΤΑΣΚΕΥΗ E-SHOP
           </Button>
-
-          <Button
-            variant='contained'
-            style={{
-              marginRight: "0px",
-              marginTop: "20px",
-              backgroundColor: "white",
-              zIndex: "999",
-            }}
-          >
-            κατασκευη Χ-SHOP
-          </Button>
         </div>
       </div>
     </>

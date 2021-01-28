@@ -135,6 +135,7 @@ export default function FadeMenu() {
             padding: "3px 9px",
             borderRadius: "4px",
             backgroundColor: "rgb(14, 65, 12)",
+            marginBottom: "10px",
           }}
         >
           ΚΑΤΑΣΚΕΥΗ E-SHOP

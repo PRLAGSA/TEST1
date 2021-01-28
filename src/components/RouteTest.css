@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap");
+
+.wrap_seperator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.category_title {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid rgb(195, 195, 195);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.katigoria_Develompent {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+
+  background-image: url(../video/backgroundtry2.jpg);
+}
+
+.dev_title {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(59, 59, 59);
+  color: rgb(246, 246, 246);
+  border-bottom: 1px solid rgb(59, 59, 59);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  /* border-bottom: none; */
+}
+
+.dev_title_mobile {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(59, 59, 59);
+  color: rgb(246, 246, 246);
+  border-bottom: 1px solid rgb(59, 59, 59);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  /* border-bottom: none; */
+  display: none;
+}
+.tag1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(59, 59, 59);
+  font-size: 17px;
+  padding: 19px;
+  /* margin-bottom: 2px; */
+  margin-top: px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: left;
+  /* border-right: 1px solid rgb(59, 59, 59);
+  border-left: 1px solid rgb(59, 59, 59); */
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.tag1:hover {
+  background-color: rgb(121, 120, 120);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.ipiresies {
+  background-color: rgba(177, 177, 177, 0.459);
+
+  color: grey;
+  margin: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  margin-top: -39px;
+  padding-top: 30px;
+  z-index: -99;
+  flex-wrap: wrap;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.ipiresies_banner {
+  margin-top: 20px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+
+  margin-left: 24%;
+  margin-right: 24%;
+  display: flex;
+  justify-content: center;
+  font-family: "Alegreya Sans", sans-serif;
+  color: rgb(68, 68, 68);
+  font-size: 31px;
+  z-index: -98;
+}
+
+.ipiresies_katigories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: (url(../video/backgroundtry.jpg));
+}
+
+.responsive {
+  background-color: rgb(90, 90, 90);
+  color: whitesmoke;
+  margin-top: 70px;
+  margin-left: -85px;
+  transform: rotate(270deg);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  width: 150px;
+}
+
+@media only screen and (max-width: 1426px) {
+  .dev_title {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border-bottom: none; */
+  }
+
+  .tag1 {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+    padding: 8px;
+    /* margin-bottom: 2px; */
+    margin-top: px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    /* border-right: 1px solid rgb(59, 59, 59);
+  border-left: 1px solid rgb(59, 59, 59); */
+    border-bottom: 1px solid rgb(180, 180, 180);
+  }
+
+  .category_title {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 1035px) {
+  .dev_title {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border-bottom: none; */
+  }
+  .dev_title_mobile {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border-bottom: none; */
+    display: none;
+  }
+
+  .tag1 {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+    padding: 8px;
+    /* margin-bottom: 2px; */
+    margin-top: px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    /* border-right: 1px solid rgb(59, 59, 59);
+  border-left: 1px solid rgb(59, 59, 59); */
+    border-bottom: 1px solid rgb(180, 180, 180);
+  }
+
+  .category_title {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+  .wrap_seperator {
+    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dev_title {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border-bottom: none; */
+  }
+
+  .dev_title_mobile {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border-bottom: none; */
+    display: none;
+  }
+
+  .tag1 {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+    padding: 8px;
+    /* margin-bottom: 2px; */
+    margin-top: px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    /* border-right: 1px solid rgb(59, 59, 59);
+  border-left: 1px solid rgb(59, 59, 59); */
+    border-bottom: 1px solid rgb(180, 180, 180);
+  }
+
+  .category_title {
+    width: 240px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+  .wrap_seperator {
+    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .dev_title {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border-bottom: none; */
+  }
+
+  .tag1 {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+    font-size: 11px;
+    padding: 4px;
+    /* margin-bottom: 2px; */
+    margin-top: px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    /* border-right: 1px solid rgb(59, 59, 59);
+  border-left: 1px solid rgb(59, 59, 59); */
+    border-bottom: 1px solid rgb(180, 180, 180);
+  }
+
+  .category_title {
+    width: 180px;
+    margin: 5px;
+    padding: px;
+    border: 1px solid rgb(195, 195, 195);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+  .wrap_seperator {
+    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

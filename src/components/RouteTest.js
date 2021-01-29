@@ -1,12 +1,11 @@
 import React from "react";
 import "../components/RouteTest.css";
-import DevTitleMobile from "../components/Dev_title_mobile";
-
 import CodeRoundedIcon from "@material-ui/icons/CodeRounded";
 import TrendingUpIcon from "@material-ui/icons/TrendingUp";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import PaletteIcon from "@material-ui/icons/Palette";
 import StorageIcon from "@material-ui/icons/Storage";
+import CategoryMobile from "./Category_Mobile";
 
 function RouteTest() {
   return (
@@ -293,7 +292,7 @@ function RouteTest() {
           </div>
         </div>
       </div>
-      <DevTitleMobile />
+      <CategoryMobile />
     </>
   );
 }

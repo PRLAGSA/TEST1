@@ -40,9 +40,10 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   /* border-bottom: none; */
+  display: none;
 }
 
-.dev_title_mobile {
+.dev_title_SmallScreen {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 800;
   font-size: 35px;
@@ -146,7 +147,7 @@
     border-bottom: 1px solid rgb(59, 59, 59);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    /* border-bottom: none; */
+    display: none;
   }
 
   .tag1 {
@@ -190,22 +191,6 @@
     border-top-right-radius: 5px;
     /* border-bottom: none; */
   }
-  .dev_title_mobile {
-    font-family: "Alegreya Sans", sans-serif;
-    font-weight: 800;
-    font-size: 35px;
-    padding: 10px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    background-color: rgb(59, 59, 59);
-    color: rgb(246, 246, 246);
-    border-bottom: 1px solid rgb(59, 59, 59);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    /* border-bottom: none; */
-    display: none;
-  }
 
   .tag1 {
     font-family: "Alegreya Sans", sans-serif;
@@ -242,7 +227,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .dev_title {
+  .dev_title_SmallScreen {
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -272,7 +257,6 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     /* border-bottom: none; */
-    display: none;
   }
 
   .tag1 {
@@ -357,5 +341,20 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+  .dev_title_SmallScreen {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(0, 189, 25);
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border-bottom: none; */
   }
 }

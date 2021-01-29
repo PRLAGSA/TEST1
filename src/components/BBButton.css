@@ -21,3 +21,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.bottomContactItems {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aaa {
+  display: flex;
+  justify-content: space-evenly;
+}

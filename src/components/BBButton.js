@@ -7,6 +7,14 @@ import ViewListIcon from "@material-ui/icons/ViewList";
 import { Link } from "react-router-dom";
 import "../components/BBButton.css";
 
+import HomeIcon from "@material-ui/icons/Home";
+import KeyboardHideIcon from "@material-ui/icons/KeyboardHide";
+import ViewComfyIcon from "@material-ui/icons/ViewComfy";
+import SpeakerNotesIcon from "@material-ui/icons/SpeakerNotes";
+import PublicIcon from "@material-ui/icons/Public";
+import PermPhoneMsgIcon from "@material-ui/icons/PermPhoneMsg";
+import LocationOnIcon from "@material-ui/icons/LocationOn";
+
 export default function FadeMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -61,6 +69,7 @@ export default function FadeMenu() {
             backgroundColor: "transparent",
           }}
         >
+          <HomeIcon style={{ marginRight: "20px" }} />
           Αρχικη
         </Link>
 
@@ -81,6 +90,7 @@ export default function FadeMenu() {
             backgroundColor: "transparent",
           }}
         >
+          <KeyboardHideIcon style={{ marginRight: "20px" }} />
           Υπηρεσιες
         </Link>
         <Link
@@ -100,6 +110,7 @@ export default function FadeMenu() {
             backgroundColor: "transparent",
           }}
         >
+          <ViewComfyIcon style={{ marginRight: "20px" }} />
           Εργα
         </Link>
 
@@ -120,6 +131,7 @@ export default function FadeMenu() {
             backgroundColor: "transparent",
           }}
         >
+          <SpeakerNotesIcon style={{ marginRight: "20px" }} />
           Blog
         </Link>
 
@@ -141,6 +153,17 @@ export default function FadeMenu() {
         >
           <div className='sideMenuItem'>κατασκευη e-shop</div>
         </MenuItem>
+        <div className='bottomContactItems'>
+          <div className='aaa'>
+            <PublicIcon style={{ color: "white" }} />
+          </div>
+          <div className='aaa'>
+            <PermPhoneMsgIcon style={{ color: "white" }} />
+          </div>
+          <div className='aaa'>
+            <LocationOnIcon style={{ color: "white" }} />
+          </div>
+        </div>
       </Menu>
     </div>
   );

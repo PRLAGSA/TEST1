@@ -12,29 +12,29 @@ function Category_Mobile() {
     <div className='Cat_mobile_wrap'>
       <div className='mobileCategory'>
         <h3 className='itemandicon'>
-          <AccountTreeIcon />
+          <AccountTreeIcon style={{ marginRight: "6px" }} />
           Development
         </h3>
         <h3 className='itemandicon'>
-          <PaletteIcon />
+          <PaletteIcon style={{ marginRight: "6px" }} />
           Design
         </h3>
         <h3 className='itemandicon'>
-          <VerifiedUserIcon />
+          <VerifiedUserIcon style={{ marginRight: "6px" }} />
           Βελτιστοπίηση
         </h3>
       </div>
       <div className='mobileCategory'>
         <h3 className='itemandicon'>
-          <InsertChartIcon />
+          <InsertChartIcon style={{ marginRight: "6px" }} />
           Προώθηση
         </h3>
         <h3 className='itemandicon'>
-          <StorageIcon />
+          <StorageIcon style={{ marginRight: "6px" }} />
           Hosting
         </h3>
         <h3 className='itemandicon'>
-          <LocalLibraryIcon />
+          <LocalLibraryIcon style={{ marginRight: "6px" }} />
           Εκπαίδευση
         </h3>
       </div>

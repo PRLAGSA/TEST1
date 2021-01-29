@@ -1,6 +1,5 @@
 import React from "react";
 import "../components/Category_Mobile.css";
-import CodeRoundedIcon from "@material-ui/icons/CodeRounded";
 import AccountTreeIcon from "@material-ui/icons/AccountTree";
 import InsertChartIcon from "@material-ui/icons/InsertChart";
 import PaletteIcon from "@material-ui/icons/Palette";

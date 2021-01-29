@@ -1,8 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
+
 .MuiList-padding {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: rgb(221, 221, 221);
-  /* background-image: url(../video/backgroundtry.jpg);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: rgb(83, 83, 83);
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 34px;
+  display: grid;
+  justify-content: left;
+  align-items: flex-start;
+  background-image: url(../video/backgroundtry.jpg);
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
+}
+.sideMenuItem {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

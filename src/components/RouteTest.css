@@ -302,7 +302,8 @@
     padding-right: 3px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    background-color: rgb(59, 59, 59);
+    /* background-color: rgba(201, 201, 201, 0.226); */
+    background-color: rgb(105, 105, 105);
     color: rgb(246, 246, 246);
     border-bottom: 1px solid rgb(59, 59, 59);
     border-top-left-radius: 5px;

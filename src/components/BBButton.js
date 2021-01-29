@@ -51,17 +51,17 @@ export default function FadeMenu() {
           style={{
             textDecoration: "none",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "left",
             color: "white",
             fontSize: "20px",
             border: "1px solid white",
             margin: "8px",
             padding: "3px 9px",
             borderRadius: "4px",
-            backgroundColor: "grey",
+            backgroundColor: "transparent",
           }}
         >
-          Αρχική
+          Αρχικη
         </Link>
 
         <Link
@@ -71,17 +71,17 @@ export default function FadeMenu() {
           style={{
             textDecoration: "none",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "left",
             color: "white",
             fontSize: "20px",
             border: "1px solid white",
             margin: "7px",
             padding: "3px 9px",
             borderRadius: "4px",
-            backgroundColor: "grey",
+            backgroundColor: "transparent",
           }}
         >
-          Υπηρεσίες
+          Υπηρεσιες
         </Link>
         <Link
           to='/Εργα'
@@ -90,17 +90,17 @@ export default function FadeMenu() {
           style={{
             textDecoration: "none",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "left",
             color: "white",
             fontSize: "20px",
             border: "1px solid white",
             margin: "7px",
             padding: "3px 9px",
             borderRadius: "4px",
-            backgroundColor: "grey",
+            backgroundColor: "transparent",
           }}
         >
-          Έργα
+          Εργα
         </Link>
 
         <Link
@@ -110,53 +110,36 @@ export default function FadeMenu() {
           style={{
             textDecoration: "none",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "left",
             color: "white",
             fontSize: "20px",
             border: "1px solid white",
             margin: "7px",
             padding: "3px 9px",
             borderRadius: "4px",
-            backgroundColor: "grey",
+            backgroundColor: "transparent",
           }}
         >
           Blog
         </Link>
+
         <MenuItem
           onClick={handleClose}
           style={{
             textDecoration: "none",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "left",
             color: "white",
             fontSize: "20px",
             border: "1px solid white",
             margin: "7px",
             padding: "3px 9px",
             borderRadius: "4px",
-            backgroundColor: "rgb(14, 65, 12)",
+            backgroundColor: "rgba(201, 201, 201, 0.226)",
             marginBottom: "10px",
           }}
         >
-          ΚΑΤΑΣΚΕΥΗ E-SHOP
-        </MenuItem>
-        <MenuItem
-          onClick={handleClose}
-          style={{
-            textDecoration: "none",
-            display: "flex",
-            justifyContent: "center",
-            color: "white",
-            fontSize: "20px",
-            border: "1px solid white",
-            margin: "7px",
-            padding: "3px 9px",
-            borderRadius: "4px",
-            backgroundColor: "rgb(14, 65, 12)",
-            marginBottom: "10px",
-          }}
-        >
-          κατασκευη e-shop
+          <div className='sideMenuItem'>κατασκευη e-shop</div>
         </MenuItem>
       </Menu>
     </div>

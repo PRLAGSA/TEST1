@@ -16,8 +16,8 @@ function App() {
         <Switch>
           <Route exact path='/Υπηρεσίες' component={Route1} />
           <Route exact path='/route2' component={Route2} />
+          <Categories />
         </Switch>
-        <Categories />
       </div>
     </Router>
   );

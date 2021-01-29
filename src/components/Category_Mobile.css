@@ -6,14 +6,16 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 877px) {
   .Cat_mobile_wrap {
     display: flex;
-    background-color: rgb(146, 146, 146);
+    background-image: url(../video/backgroundtry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .mobileCategory {
-    background-color: rgb(146, 146, 146);
+    background-color: transparent;
     display: grid;
     justify-content: center;
     text-align: left;

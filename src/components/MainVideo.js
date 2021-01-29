@@ -6,7 +6,6 @@ import Logo from "../video/logowhite.svg";
 
 import PublicOutlinedIcon from "@material-ui/icons/PublicOutlined";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
-// import ViewListIcon from "@material-ui/icons/ViewList";
 
 import Button from "@material-ui/core/Button";
 import BBButton from "../components/BBButton";

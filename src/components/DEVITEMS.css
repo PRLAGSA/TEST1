@@ -43,7 +43,7 @@ li {
   list-style: none;
   border: 1px solid white;
   border-radius: 3px;
-  padding: 8px 12px;
+  padding: 4px 10px;
   color: white;
   cursor: pointer;
   margin: 7px 7px;
@@ -55,17 +55,11 @@ li {
     justify-content: center;
     align-items: center;
   }
-  li {
+  ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    list-style: none;
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 10px 16px;
-    color: white;
-    cursor: pointer;
-    margin: 7px 7px;
+    padding: 4px 10px;
   }
 }

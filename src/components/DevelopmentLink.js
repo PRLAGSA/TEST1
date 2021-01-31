@@ -12,7 +12,6 @@ function DevelopmentLink() {
   // };
   return (
     <>
-      <DevItems />
       <div className='text_wrapper'>
         <h1 className='text'>
           <div className='imageMac'></div>
@@ -21,6 +20,7 @@ function DevelopmentLink() {
             e-shop,
             <br></br> με πολλά από αυτά με πάνω από 1.000 <br></br>
             παραγγελίες την ημέρα.
+            <DevItems />
           </div>
 
           <div className='text2'>E-SHOPS</div>

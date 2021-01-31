@@ -13,7 +13,7 @@ import HostingLink from "../src/components/Hosting.js";
 import DesignLink from "../src/components/Design";
 import VeltistopoihshLink from "../src/components/Veltistopoihsh";
 import EkpaidevshLink from "../src/components/Ekpaidevsh";
-import Cards from "../src/components/Cards";
+// import Cards from "../src/components/Cards";
 function App() {
   return (
     <Router>

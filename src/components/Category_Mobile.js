@@ -6,7 +6,7 @@ import PaletteIcon from "@material-ui/icons/Palette";
 import StorageIcon from "@material-ui/icons/Storage";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 import LocalLibraryIcon from "@material-ui/icons/LocalLibrary";
-import { BrowserRouter as Route } from "react-router-dom";
+// import { BrowserRouter as Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import devlink from "../components/DevelopmentLink";
 

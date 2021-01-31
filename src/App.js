@@ -6,6 +6,7 @@ import Slider from "../src/components/Slider";
 import Route1 from "../src/components/RouteTest";
 import Route2 from "../src/components/RouteT2";
 import Titles from "../src/components/MainTitles";
+import MainPage from "../src/components/MAINPAGE";
 import "../src/components/MainTitles.css";
 import DevelopmentLink from "../src/components/DevelopmentLink";
 import ProothisiLink from "../src/components/Proothisi";
@@ -26,6 +27,7 @@ function App() {
         {/* <Cards /> */}
 
         <Switch>
+          <Route exact path='/' component={MainPage} />
           <Route exact path='/Υπηρεσίες' component={Route1} />
           <Route exact path='/route2' component={Route2} />
           <Route exact path='/DevPage' component={DevelopmentLink} />

@@ -1,0 +1,61 @@
+.zIndexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+
+  /* height: 600px; */
+  padding-bottom: 50px;
+  /* position: relative; */
+  z-index: -10;
+}
+
+.phone {
+  background-image: url(../video/iphone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 130px;
+  background-color: rgba(255, 0, 0, 0);
+  position: relative;
+  z-index: 6;
+  left: -60px;
+  top: 150px;
+}
+
+.tablet {
+  background-image: url(../video/imacelectronet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 400px;
+  background-color: rgba(0, 0, 255, 0);
+  position: relative;
+  z-index: 4;
+}
+
+.iMac {
+  text-align: center;
+  background-image: url(../video/ipadmymarket2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 330px;
+  background-color: rgba(0, 128, 0, 0);
+  position: relative;
+  z-index: 2;
+  right: -140px;
+  top: -370px;
+}
+
+.threeItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.KataskeviIsto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -47,8 +47,24 @@ li {
   color: white;
   cursor: pointer;
   margin: 7px 7px;
+  cursor: pointer;
 }
 
+li:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  padding: 4px 10px;
+  color: rgb(16, 20, 36);
+  cursor: pointer;
+  margin: 7px 7px;
+  cursor: pointer;
+}
 @media only screen and (max-width: 531px) {
   .forWrap {
     display: grid;

@@ -28,7 +28,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 .slider::before,
 .slider::after {

@@ -12,17 +12,25 @@
     background-image: url(../video/backgroundtry.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .itemandicon {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
   }
 
   .mobileCategory {
     background-color: transparent;
     display: grid;
-    justify-content: center;
-    text-align: left;
+    justify-content: space-around;
+    text-align: center;
     font-family: "Alegreya Sans", sans-serif;
     font-size: 18px;
     font-weight: 900;
     color: white;
+    padding-left: 8px;
   }
   .itemandicon {
     display: flex;

@@ -9,6 +9,7 @@ import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 
 import Button from "@material-ui/core/Button";
 import BBButton from "../components/BBButton";
+// import DevelopmentLink from "../components/DevelopmentLink";
 
 // import { Link } from "react-router-dom";
 
@@ -25,7 +26,7 @@ function MainVideo() {
           style={{
             position: "absolute",
             width: "100%",
-            height: "400px",
+            height: "300px",
             objectFit: "cover",
             zIndex: "-1",
           }}
@@ -106,14 +107,16 @@ function MainVideo() {
             variant='contained'
             style={{
               marginRight: "0px",
-              marginTop: "20px",
+              marginTop: "-7px",
               backgroundColor: "white",
               zIndex: "999",
+              marginBottom: "20px",
             }}
           >
             ΚΑΤΑΣΚΕΥΗ E-SHOP
           </Button>
         </div>
+        {/* <DevelopmentLink /> */}
       </div>
     </>
   );

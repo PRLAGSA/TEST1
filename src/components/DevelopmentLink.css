@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600;1,700;1,800&display=swap");
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 39px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: rgb(214, 214, 214);
+  background-color: rgba(0, 128, 128, 0);
+  background-image: url(../video/Dark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 39px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: rgb(41, 41, 41);
+  background-color: rgb(197, 95, 0);
+  padding: 10px;
+  color: rgb(14, 31, 46);
+}
+.text_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: rgb(27, 51, 82); */
+  margin-top: 25px;
+}
+
+.textmain1 {
+  /* padding-left: 25px; */
+}
+.imageMac {
+  background-image: url(../video/iphone2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.imagePhone {
+  background-image: url(../video/imacelectronet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button1 {
+  margin-top: 180px;
+  margin-right: 20px;
+  background-color: rgb(0, 166, 196);
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 3px 12px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 878px) {
+}

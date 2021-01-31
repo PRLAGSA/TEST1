@@ -1,0 +1,28 @@
+/* .wrapper {
+  background-color: darkgreen;
+  z-index: 6;
+}
+
+.backGroundCard {
+  z-index: 0;
+  background-color: rgb(85, 85, 85);
+  padding: 30px;
+  position: relative;
+}
+.one {
+  width: 400px;
+  background-color: darkgoldenrod;
+  padding: 80px;
+  z-index: 2;
+  position: absolute;
+}
+
+.two {
+  width: 100px;
+  background-color: rgb(14, 62, 90);
+  padding: 50px;
+  z-index: 3;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  position: relative;
+} */

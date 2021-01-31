@@ -5,6 +5,7 @@ import TrendingUpIcon from "@material-ui/icons/TrendingUp";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import PaletteIcon from "@material-ui/icons/Palette";
 import StorageIcon from "@material-ui/icons/Storage";
+// import CategoryMobile from "../components/Category_Mobile";
 // import CategoryMobile from "./Category_Mobile";
 
 function RouteTest() {

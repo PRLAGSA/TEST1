@@ -1,0 +1,71 @@
+.MainContDivItems {
+  padding-top: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ContDivItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(16, 20, 36);
+  padding-top: 10px;
+  align-items: center;
+}
+.forWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.HolderDivItems1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HolderDivItems1 {
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  margin: 7px 7px;
+}
+
+@media only screen and (max-width: 531px) {
+  .forWrap {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 16px;
+    color: white;
+    cursor: pointer;
+    margin: 7px 7px;
+  }
+}

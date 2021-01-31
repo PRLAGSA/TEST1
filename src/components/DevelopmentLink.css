@@ -9,7 +9,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   color: rgb(214, 214, 214);
-  background-color: rgba(0, 128, 128, 0);
+  /* background-color: rgba(0, 128, 128, 0); */
   background-image: url(../video/Dark.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,20 +28,23 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   color: rgb(41, 41, 41);
-  background-color: rgb(197, 95, 0);
-  padding: 10px;
+  background-color: rgb(121, 115, 110);
+  padding: 12px 30px;
+  margin-top: 20px;
   color: rgb(14, 31, 46);
 }
 .text_wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   /* background-color: rgb(27, 51, 82); */
   margin-top: 25px;
 }
 
 .textmain1 {
-  /* padding-left: 25px; */
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .imageMac {
   background-image: url(../video/iphone2.png);
@@ -73,5 +76,50 @@
   padding: 3px 12px;
   cursor: pointer;
 }
-@media only screen and (max-width: 878px) {
+@media only screen and (max-width: 1456px) {
+  .imageMac {
+    background-image: url(../video/iphone2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: rgb(214, 214, 214);
+    /* background-color: rgba(0, 128, 128, 0); */
+    background-image: url(../video/Dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: rgb(41, 41, 41);
+    background-color: rgb(121, 115, 110);
+    padding: 12px 30px;
+    margin-top: 20px;
+    color: rgb(14, 31, 46);
+  }
 }

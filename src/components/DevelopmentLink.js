@@ -19,13 +19,10 @@ function DevelopmentLink() {
           <br></br> με πολλά από αυτά με πάνω από 1.000 <br></br>
           παραγγελίες την ημέρα.
         </div>
-        <button className='button1'>button</button>
+
+        <div className='text2'>E-SHOPS</div>
       </h1>
 
-      <div className='text2'>
-        16 χρόνια κατασκευάζουμε <br></br> <br></br>
-        παραγγελίες την ημέρα.
-      </div>
       {/* 
       <button onClick={goToPreviousPath}>Back</button> */}
     </div>

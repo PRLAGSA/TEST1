@@ -10,7 +10,7 @@ function Veltistopoihsh() {
   return (
     <div>
       <div className='devOnClick'>
-        <h1>Βελτιστοπίηση Page Display</h1>
+        <h1>Βελτιστοποίηση Page Display</h1>
       </div>
       <div>
         <button onClick={goToPreviousPath}>Back</button>

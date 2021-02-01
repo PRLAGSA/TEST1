@@ -1,5 +1,7 @@
 import React from "react";
 import Dark__Logo from "../video/LOGO-DARK-01.png";
+import Categories from "./Category_Mobile";
+import "../components/Category_Mobile.css";
 
 import "./MAINPAGE.css";
 
@@ -25,6 +27,7 @@ function MAINPAGE() {
             </div>
           </div>
         </div>
+        <Categories />
       </div>
       {/* </Link> */}
     </div>

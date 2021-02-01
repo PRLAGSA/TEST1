@@ -19,7 +19,7 @@ function Category_Mobile() {
             <AccountTreeIcon
               style={{
                 marginRight: "6px",
-                color: "white",
+                // color: "white",
               }}
             />
             Development

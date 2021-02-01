@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MainVideo from "./components/MainVideo";
-import Categories from "../src/components/Category_Mobile";
+// import Categories from "../src/components/Category_Mobile";
 import "./components/mainVideo.css";
 import Slider from "../src/components/Slider";
 import Route1 from "../src/components/RouteTest";
@@ -23,7 +23,7 @@ function App() {
         <Slider />
         <Titles />
 
-        <Categories />
+        {/* <Categories /> */}
         {/* <Cards /> */}
 
         <Switch>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Categories from "./Category_Mobile";
 import "./DevelopmentLink.css";
 import DevItems from "../components/DEVITEMS";
 import "./DEVITEMS.css";
@@ -12,6 +12,7 @@ function DevelopmentLink() {
   // };
   return (
     <>
+      <Categories />
       <DevItems />
       <div className='text_wrapper'>
         <h1 className='text'>

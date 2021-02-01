@@ -1,4 +1,5 @@
 import React from "react";
+import Dark__Logo from "../video/LOGO-DARK-01.png";
 
 import "./MAINPAGE.css";
 
@@ -10,10 +11,8 @@ function MAINPAGE() {
         <div className='Banner_Title'>
           {/* <img src={Banner} alt='banner' className='Banner' /> */}
           <div className='zIndexContainer'>
-            <h1 className='h1GNORISTE'>Γνωριστε την Netstudio</h1>
-            {/* <h4 className='h4GNORISTE'>
-              Γνωριστε την <bold>NETSTUDIO</bold>
-            </h4> */}
+            <h1 className='h1GNORISTE'>Γνωριστε την Netstudio </h1>
+            <h4 className='h4GNORISTE'>.</h4>
             <div className='threeItems'>
               <div className='phone'></div>
               <div className='tablet'></div>
@@ -21,7 +20,9 @@ function MAINPAGE() {
             </div>
           </div>
         </div>
-        <h4>4985840584059840589489</h4>
+        <div className='DarkLogo_Container'>
+          <img src={Dark__Logo} alt='darklogo' className='DarkLogo' />
+        </div>
       </div>
       {/* </Link> */}
     </div>

@@ -65,19 +65,19 @@ p {
   display: flex;
   align-items: center;
   list-style: none;
-  color: rgb(75, 112, 143);
+  color: rgb(255, 255, 255);
   margin: 0px 6px;
-  border: 1px solid white;
+  border-bottom: 2px solid white;
   border-radius: 3px;
   cursor: pointer;
-  background-color: rgb(95, 95, 95);
+  background-color: rgb(19, 31, 58);
 }
 
 .menuItems:hover {
   display: flex;
   align-items: center;
   list-style: none;
-  color: rgb(100, 100, 100);
+  color: rgb(19, 31, 58);
   margin: 0px 6px;
   border: 0px solid white;
   border-radius: 3px;

@@ -1,13 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600;1,700;1,800&display=swap");
+
 .zIndexContainer {
-  display: flex;
+  /* display: grid; */
   justify-content: center;
   align-items: center;
-  background-color: rgb(238, 238, 238);
+  background-color: rgba(185, 7, 7, 0);
 
-  /* height: 600px; */
-  padding-bottom: 50px;
-  /* position: relative; */
-  z-index: -10;
+  height: 300px;
 }
 
 .phone {
@@ -19,8 +18,8 @@
   background-color: rgba(255, 0, 0, 0);
   position: relative;
   z-index: 6;
-  left: -60px;
-  top: 150px;
+  left: -50px;
+  top: 70px;
 }
 
 .tablet {
@@ -35,7 +34,6 @@
 }
 
 .iMac {
-  text-align: center;
   background-image: url(../video/ipadmymarket2.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -44,18 +42,82 @@
   background-color: rgba(0, 128, 0, 0);
   position: relative;
   z-index: 2;
-  right: -140px;
-  top: -370px;
+  right: -50px;
+  top: 70px;
 }
 
 .threeItems {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
-  margin: auto;
+  background-color: rgba(153, 153, 153, 0);
+  padding: 40px 25px;
+  /* margin-bottom: 350px; */
+  height: 300px;
 }
 .KataskeviIsto {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Banner_Title {
+  background-color: rgb(223, 223, 223);
+  /* z-index: -5; */
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 77%, 50% 100%, 0 77%);
+  padding-bottom: 90px;
+  position: relative;
+  z-index: -17;
+}
+
+.h1GNORISTE {
+  font-size: 44px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  color: rgb(19, 31, 58);
+  padding: 10px;
+}
+
+h4 {
+  padding: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 625px) {
+  .iMac {
+    background-image: url(../video/ipadmymarket2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 330px;
+    background-color: rgba(0, 128, 0, 0);
+    position: relative;
+    z-index: 2;
+    right: 30px;
+    top: 70px;
+  }
+
+  .phone {
+    background-image: url(../video/iphone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 130px;
+    background-color: rgba(255, 0, 0, 0);
+    position: relative;
+    z-index: 6;
+    left: 20px;
+    top: 70px;
+  }
+
+  .h1GNORISTE {
+    font-size: 29px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(19, 31, 58);
+    padding: 0px;
+  }
 }

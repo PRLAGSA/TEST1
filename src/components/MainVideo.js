@@ -36,7 +36,7 @@ function MainVideo() {
 
         <div className='navbar'>
           <img src={Logo} alt='companyLogo' className='logo_image' />
-          <p>υπ'όψιν του κ.Γιάννη</p>
+          <p>υπ'όψιν Κου Γιάννη</p>
         </div>
 
         <div className='menu_ItemsWrap'>

@@ -80,8 +80,9 @@
   font-weight: 800;
   text-decoration: none;
   color: rgb(19, 31, 58);
-
+  z-index: 33;
   margin: 0%;
+  padding-top: 20px;
 }
 
 h4 {

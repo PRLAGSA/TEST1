@@ -7,7 +7,7 @@ import Logo from "../video/logowhite.svg";
 import PublicOutlinedIcon from "@material-ui/icons/PublicOutlined";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 import BBButton from "../components/BBButton";
 // import DevelopmentLink from "../components/DevelopmentLink";
 
@@ -103,7 +103,7 @@ function MainVideo() {
         <p className='banner_title'>SOFTWARE DEVELOPMENT AGENCY</p>
         <p className='sub_title'>ιστοσελίδες και e-shop υψηλών απαιτήσεων</p>
         <div className='menuButtons'>
-          <Button
+          {/* <Button
             variant='contained'
             style={{
               marginRight: "0px",
@@ -113,8 +113,8 @@ function MainVideo() {
               marginBottom: "20px",
             }}
           >
-            ΚΑΤΑΣΚΕΥΗ E-SHOP
-          </Button>
+            Δειγμα /
+          </Button> */}
         </div>
         {/* <DevelopmentLink /> */}
       </div>

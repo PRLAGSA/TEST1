@@ -1,7 +1,10 @@
 import React from "react";
 import Dark__Logo from "../video/LOGO-DARK-01.png";
-import Categories from "./Category_Mobile";
+// import Categories from "./Category_Mobile";
 import "../components/Category_Mobile.css";
+
+import "./DEVITEMS.css";
+import DEVELOPMENTBANNER from "./DevelopmentLink";
 
 import "./MAINPAGE.css";
 
@@ -14,7 +17,7 @@ function MAINPAGE() {
           {/* <img src={Banner} alt='banner' className='Banner' /> */}
           <div className='zIndexContainer'>
             <h1 className='h1GNORISTE'>
-              Γνωριστε την{" "}
+              Γνωρίστε την{" "}
               <div className='DarkLogo_Container'>
                 <img src={Dark__Logo} alt='darklogo' className='DarkLogo' />
               </div>{" "}
@@ -27,7 +30,9 @@ function MAINPAGE() {
             </div>
           </div>
         </div>
-        <Categories />
+        {/* <Categories /> */}
+
+        <DEVELOPMENTBANNER />
       </div>
       {/* </Link> */}
     </div>

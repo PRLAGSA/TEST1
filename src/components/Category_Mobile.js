@@ -14,7 +14,16 @@ function Category_Mobile() {
   return (
     <div className='Cat_mobile_wrap'>
       <div className='mobileCategory'>
-        <Link to='/DevPage' style={{ textDecoration: "none" }}>
+        <Link
+          to='/DevPage'
+          style={{ textDecoration: "none" }}
+          activeStyle={{
+            border: "1px solid white",
+            borderRadius: "3px",
+            backgroundColor: "#122335",
+            color: "red",
+          }}
+        >
           <h3 className='itemandicon'>
             <AccountTreeIcon
               style={{

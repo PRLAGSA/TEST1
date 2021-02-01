@@ -10,7 +10,7 @@ function MAINPAGE() {
         <div className='Banner_Title'>
           {/* <img src={Banner} alt='banner' className='Banner' /> */}
           <div className='zIndexContainer'>
-            <h1 className='h1GNORISTE'>Γνωριστε την NETSTUDIO</h1>
+            <h1 className='h1GNORISTE'>Γνωριστε την Netstudio</h1>
             {/* <h4 className='h4GNORISTE'>
               Γνωριστε την <bold>NETSTUDIO</bold>
             </h4> */}
